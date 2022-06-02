@@ -1,2 +1,2 @@
 # Yandex-Practicum
- This repository contains data analysis projects on various topics. In the process, libraries such as pandas, matplotlib, seaborn, plotly, etc. were used.
+ This repository contains data analysis projects on various topics. There are libraries pandas, matplotlib, seaborn, plotly, etc were used in the process.
