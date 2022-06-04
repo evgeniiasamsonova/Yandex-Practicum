@@ -20,9 +20,11 @@ Moscow and St. Petersburg prefer different genres of music. In Moscow, they list
 Basic tools: data preprocessing, Python, Pandas
 
 Borrower Reliability Study.
-The customer is the credit department of the bank.
-The purpose of the study is to test the hypothesis whether the marital status and the number of children of the client affect the fact of repaying the loan on time. Input data from the bank - statistics on the solvency of customers.
-The results of the study will be taken into account when building a credit scoring model - a special system that assesses the ability of a potential borrower to repay a loan to a bank.
+Based on the data of the credit department of the bank, he studied the influence of marital status and
+the number of children for the fact of loan repayment on time. Information was received about
+data. Identified and processed omissions. Replaced data types with appropriate ones
+stored data. Removed duplicates. Lemmas are highlighted in the values of the column and
+categorized data.
 
 3. Project about real estate market
 
