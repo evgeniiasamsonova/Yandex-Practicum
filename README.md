@@ -15,7 +15,7 @@ User activity depends on the day of the week. Moreover, in Moscow and St. Peters
 On Monday morning, certain genres dominate in Moscow, while others dominate in St. Petersburg. Similarly, Friday evenings are dominated by different genres, depending on the city.
 Moscow and St. Petersburg prefer different genres of music. In Moscow, they listen to pop music more often, in St. Petersburg - Russian rap.
 
-2. Project about 
+2. Project about borrower reliability
 
 Basic tools: data preprocessing, Python, Pandas
 
@@ -23,3 +23,13 @@ Borrower Reliability Study.
 The customer is the credit department of the bank.
 The purpose of the study is to test the hypothesis whether the marital status and the number of children of the client affect the fact of repaying the loan on time. Input data from the bank - statistics on the solvency of customers.
 The results of the study will be taken into account when building a credit scoring model - a special system that assesses the ability of a potential borrower to repay a loan to a bank.
+
+3. Project about real estate market
+
+Basic tools: Matplotlib, Pandas, Python, data visualization, exploratory data analysis, data preprocessing
+
+Research of advertisements for the sale of apartments
+Based on the Yandex.Realty service data, the market value was determined
+real estate objects of different types, typical parameters of apartments, depending on
+distance from the center. Data preprocessing has been carried out. Added new data.
+Histograms, boxplots, scatterplots are constructed.
