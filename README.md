@@ -3,7 +3,7 @@
 
 1. Project about two groups of users of music app.
 
-Basic tools: Python, Pandas
+Tools: Python, Pandas
 
 Yandex Music.
 Comparison of Moscow and St. Petersburg is surrounded by myths. For example:
@@ -17,7 +17,7 @@ Moscow and St. Petersburg prefer different genres of music. In Moscow, they list
 
 2. Project about borrower reliability
 
-Basic tools: data preprocessing, Python, Pandas
+Tools: data preprocessing, Python, Pandas
 
 Borrower Reliability Study.
 Based on the data of the credit department of the bank, he studied the influence of marital status and
@@ -28,10 +28,18 @@ categorized data.
 
 3. Project about real estate market
 
-Basic tools: Matplotlib, Pandas, Python, data visualization, exploratory data analysis, data preprocessing
+Tools: Matplotlib, Pandas, Python, data visualization, exploratory data analysis, data preprocessing
 
 Research of advertisements for the sale of apartments
 Based on the Yandex.Realty service data, the market value was determined
 real estate objects of different types, typical parameters of apartments, depending on
 distance from the center. Data preprocessing has been carried out. Added new data.
 Histograms, boxplots, scatterplots are constructed.
+
+4. Tableau dashboards 
+- a project to create a dashboard on user events for a news aggregator.
+Using Yandex.Zen data to build a dashboard with metrics of user interaction with article cards
+Tools: PostgreSQL, Python, SQLAlchemy, Tableau, dash, dashboard building, product metrics.
+- study of a survey of customers of a telecommunications company
+Research data from the results of a survey that reflects the current level of consumer loyalty (NPS) of customers of a telecommunications company.
+Tools: Pandas, Python, SQL, Tableau, dashboard building
