@@ -36,7 +36,7 @@ real estate objects of different types, typical parameters of apartments, depend
 distance from the center. Data preprocessing has been carried out. Added new data.
 Histograms, boxplots, scatterplots are constructed.
 
-4. Project about кussian film distribution market research
+4. Project about russian film distribution market research
 
 Tools: Pandas, Python, data visualization, exploratory data analysis, data preprocessing
 
