@@ -1,0 +1,18 @@
+
+English
+The customer of this study is a large telecommunications company that provides services throughout the CIS. The company is faced with the task
+of determining the current level of consumer loyalty, or NPS (from the English. Net Promoter Score), among customers from Russia.
+To determine the level of loyalty, customers were asked the classic question: "On a scale of 1 to 10, rate the likelihood that you would recommend 
+the company to friends and acquaintances."
+The company conducted a survey and asked me to prepare a dashboard with its results. They did not deploy a large database for such a task and uploaded 
+the data to SQLite.
+
+Русский 
+Заказчик этого исследования — большая телекоммуникационная компания, которая оказывает услуги на территории всего СНГ. Перед компанией стоит задача
+определить текущий уровень потребительской лояльности, или NPS (от англ. Net Promoter Score), среди клиентов из России.
+Чтобы определить уровень лояльности, клиентам задавали классический вопрос: «Оцените по шкале от 1 до 10 вероятность того, что вы порекомендуете
+компанию друзьям и знакомым».
+Компания провела опрос и попросила меня подготовить дашборд с его итогами. Большую базу данных для такой задачи разворачивать не стали и выгрузили 
+данные в SQLite.
+
+Link : https://public.tableau.com/app/profile/eugenesam/viz/Dashboardfortelecommunicationcompany/Dashboard
