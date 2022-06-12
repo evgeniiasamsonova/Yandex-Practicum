@@ -44,6 +44,11 @@ The customer of this study is the Ministry of Culture of the Russian Federation.
 It is necessary to study the Russian film distribution market and identify current trends. Pay attention to films that have received state support. Try to answer the question of how interesting such films are to the viewer.
 You will work with data published on the open data portal of the Ministry of Culture. The data set contains information about distribution certificates, box office and government support for films, as well as information from the KinoPoisk website.
 
+5. Sql trainer
+
+The project is automatically added in the SQL trainer. In the standalone project of this course, you work with a database that stores information about venture capital funds and investments in start-up companies. This database, as of the date of the Startup Investments recruitment, is published on the well-known data mining investigation platform Kaggle.
+
+Tools: PostgreSQL,SQL
 
 
 
