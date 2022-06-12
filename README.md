@@ -15,6 +15,7 @@ User activity depends on the day of the week. Moreover, in Moscow and St. Peters
 On Monday morning, certain genres dominate in Moscow, while others dominate in St. Petersburg. Similarly, Friday evenings are dominated by different genres, depending on the city.
 Moscow and St. Petersburg prefer different genres of music. In Moscow, they listen to pop music more often, in St. Petersburg - Russian rap.
 
+
 2. Project about borrower reliability
 
 Tools: data preprocessing, Python, Pandas
@@ -26,6 +27,7 @@ data. Identified and processed omissions. Replaced data types with appropriate o
 stored data. Removed duplicates. Lemmas are highlighted in the values of the column and
 categorized data.
 
+
 3. Project about real estate market
 
 Tools: Matplotlib, Pandas, Python, data visualization, exploratory data analysis, data preprocessing
@@ -36,6 +38,7 @@ real estate objects of different types, typical parameters of apartments, depend
 distance from the center. Data preprocessing has been carried out. Added new data.
 Histograms, boxplots, scatterplots are constructed.
 
+
 4. Project about russian film distribution market research
 
 Tools: Pandas, Python, data visualization, exploratory data analysis, data preprocessing
@@ -44,20 +47,36 @@ The customer of this study is the Ministry of Culture of the Russian Federation.
 It is necessary to study the Russian film distribution market and identify current trends. Pay attention to films that have received state support. Try to answer the question of how interesting such films are to the viewer.
 You will work with data published on the open data portal of the Ministry of Culture. The data set contains information about distribution certificates, box office and government support for films, as well as information from the KinoPoisk website.
 
-5. Sql trainer
 
-The project is automatically added in the SQL trainer. In the standalone project of this course, you work with a database that stores information about venture capital funds and investments in start-up companies. This database, as of the date of the Startup Investments recruitment, is published on the well-known data mining investigation platform Kaggle.
+5. Sql trainer
 
 Tools: PostgreSQL,SQL
 
+The project is automatically added in the SQL trainer. In the standalone project of this course, you work with a database that stores information about venture capital funds and investments in start-up companies. This database, as of the date of the Startup Investments recruitment, is published on the well-known data mining investigation platform Kaggle.
 
 
+6. Project about research of the public catering market in Moscow to make a decision about
+opening of a new establishment
+
+Tools: Pandas, Plotly, Python, Seaborn, data visualization
+
+I have researched the question - will the cafe be successful and popular for a long time, in where guests are served by robotic waiters. Based on the results of the analysis, a presentation for investors with recommendations. In plotting I used seaborn and plotly libraries.
 
 
-Tableau dashboards 
-- a project to create a dashboard on user events for a news aggregator.
-Using Yandex.Zen data to build a dashboard with metrics of user interaction with article cards
-Tools: PostgreSQL, Python, SQLAlchemy, Tableau, dash, dashboard building, product metrics.
-- study of a survey of customers of a telecommunications company
-Research data from the results of a survey that reflects the current level of consumer loyalty (NPS) of customers of a telecommunications company.
-Tools: Pandas, Python, SQL, Tableau, dashboard building
+7. Tableau dashboard for Yandex.Zen 
+
+Tools: PostgreSQL, Python, SQLAlchemy, Tableau, dash, dashboard building, product metrics
+
+I worked on this project on a remote machine in the Yandex.Cloud service.PostgreSQL was installed, the database was deployed.
+Then I wrote a pipeline script, which allowed to collect data for a certain time period, and configured it
+offline work via crontab. To visualize the collected data, I wrote a scriptdashboard with several filters and also launched it on a remote machine. By
+a presentation was prepared with the resulting graphs.
+
+
+8. Tableau dashboard for telecommunications company
+
+Tools: Pandas, Python, SQL, Tableau, building dashboards
+
+The customer of this study is a large telecommunications company that provides services throughout the CIS. The company is faced with the task of determining the current level of consumer loyalty, or NPS (from the English. Net Promoter Score), among customers from Russia.
+To determine the level of loyalty, customers were asked the classic question: "On a scale of 1 to 10, rate the likelihood that you would recommend the company to friends and acquaintances."
+The company conducted a survey and asked me to prepare a dashboard with its results. They did not deploy a large database for such a task and uploaded the data to SQLite.
