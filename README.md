@@ -36,7 +36,20 @@ real estate objects of different types, typical parameters of apartments, depend
 distance from the center. Data preprocessing has been carried out. Added new data.
 Histograms, boxplots, scatterplots are constructed.
 
-4. Tableau dashboards 
+4. Project about кussian film distribution market research
+
+Tools: Pandas, Python, data visualization, exploratory data analysis, data preprocessing
+
+The customer of this study is the Ministry of Culture of the Russian Federation.
+It is necessary to study the Russian film distribution market and identify current trends. Pay attention to films that have received state support. Try to answer the question of how interesting such films are to the viewer.
+You will work with data published on the open data portal of the Ministry of Culture. The data set contains information about distribution certificates, box office and government support for films, as well as information from the KinoPoisk website.
+
+
+
+
+
+
+Tableau dashboards 
 - a project to create a dashboard on user events for a news aggregator.
 Using Yandex.Zen data to build a dashboard with metrics of user interaction with article cards
 Tools: PostgreSQL, Python, SQLAlchemy, Tableau, dash, dashboard building, product metrics.
