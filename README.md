@@ -15,6 +15,8 @@ User activity depends on the day of the week. Moreover, in Moscow and St. Peters
 On Monday morning, certain genres dominate in Moscow, while others dominate in St. Petersburg. Similarly, Friday evenings are dominated by different genres, depending on the city.
 Moscow and St. Petersburg prefer different genres of music. In Moscow, they listen to pop music more often, in St. Petersburg - Russian rap.
 
+https://github.com/evgeniiasamsonova/Yandex-Practicum/tree/main/Project%201.%20Music
+
 
 2. Project about borrower reliability
 
