@@ -5,7 +5,7 @@ PostgreSQL was installed, the database was deployed. Then I wrote a pipeline scr
 which allowed to collect data for a certain time period, and configured it
 offline work via crontab. To visualize the collected data, I wrote a script
 dashboard with several filters and also launched it on a remote machine. By
-a presentation was prepared with the resulting graphs
+a presentation was prepared with the resulting graphs.
 
 Русский
 Инструменты: PostgreSQL,Python,SQLAlchemy,Tableau,dash,построение дашбордов,продуктовые метрики
@@ -14,6 +14,6 @@ a presentation was prepared with the resulting graphs
 который позволил собирать данные за определенный временной период, и настроил его
 автономную работу через crontab. Для визуализации собранных данных я написал скрипт
 дашборда с несколькими фильтрами и также запустил его на удаленной машине. По
-результатам была подготовлена презентация с полученными графиками
+результатам была подготовлена презентация с полученными графиками.
 
 Link: https://public.tableau.com/app/profile/eugenesam/viz/DashboardforYandex_Dzen_16515794710680/Dashboard
