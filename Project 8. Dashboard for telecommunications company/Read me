@@ -1,14 +1,30 @@
 English
-Tools:Pandas, Python, SQL, Tableau, building dashboards
-The customer of this study is a large telecommunications company that provides services throughout the CIS. The company is faced with the task
-of determining the current level of consumer loyalty, or NPS (from the English. Net Promoter Score), among customers from Russia.
-To determine the level of loyalty, customers were asked the classic question: "On a scale of 1 to 10, rate the likelihood that you would recommend 
-the company to friends and acquaintances."
-The company conducted a survey and asked me to prepare a dashboard with its results. They did not deploy a large database for such a task and uploaded 
-the data to SQLite.
+
+Purpose, brief description:
+The customer of this study is a large telecommunications company that provides services throughout the CIS. The company faces the challenge
+determine the current level of consumer loyalty, or NPS (from the English Net Promoter Score), among customers from Russia.
+To determine the level of loyalty, customers were asked the classic question: “On a scale of 1 to 10, rate the likelihood that you would recommend
+company of friends and acquaintances.
+The company conducted a survey and asked me to prepare a dashboard with its results. A large database for such a task was not deployed and unloaded
+data in SQLite
+
+Main conclusions:
+-Companies need to increase the level of NPS (for example, by means of improving service, support, changing pricing policy), since with an NPS level above 50%
+the client base can grow by itself, and you can not advertise at all.
+-Mostly, in general, the level of NPS is at a sufficient level, the main part of the audience are supporters of the company (* it is necessary to clarify the average level
+loyalty across the industry)
+- It is necessary to monitor the level of NPS over time (for example, every quarter, month, week) in order to track and promptly take measures to increase it in
+various groups
+
+Tools: Pandas, Python, SQL, Tableau, dashboard building
+
+Link: https://public.tableau.com/app/profile/eugenesam/viz/Dashboardfortelecommunicationcompany/Dashboard
+
+Status: project completed
 
 Русский 
-Инструменты:Pandas,Python,SQL,Tableau,построение дашбордов
+
+Цель, краткое описание:
 Заказчик этого исследования — большая телекоммуникационная компания, которая оказывает услуги на территории всего СНГ. Перед компанией стоит задача
 определить текущий уровень потребительской лояльности, или NPS (от англ. Net Promoter Score), среди клиентов из России.
 Чтобы определить уровень лояльности, клиентам задавали классический вопрос: «Оцените по шкале от 1 до 10 вероятность того, что вы порекомендуете
@@ -16,4 +32,16 @@ the data to SQLite.
 Компания провела опрос и попросила меня подготовить дашборд с его итогами. Большую базу данных для такой задачи разворачивать не стали и выгрузили 
 данные в SQLite
 
-Link : https://public.tableau.com/app/profile/eugenesam/viz/Dashboardfortelecommunicationcompany/Dashboard
+Основные выводы:
+-Компании необходимо повышать уровень NPS (например по средствам улучшения сервиса, поддержки, изменения ценовой политики), так как при уровне NPS выше 50% 
+клиентская база может увеличиваться сама собой, и рекламу можно вообще не давать.
+-Преимущественно в целом уровень NPS на достаточном уровне, основная часть аудитории является сторонниками компании (* необходимо уточнить средний уровень 
+лояльности во всей сфере),
+-Необходимо наблюдать за уровнем NPS  во времени (например каждый квартал, месяц, неделю), чтобы отслеживать и оперативно принимать меры по его повышению в 
+различных группах
+
+Инструменты:Pandas,Python,SQL,Tableau,построение дашбордов
+
+Ссылка: https://public.tableau.com/app/profile/eugenesam/viz/Dashboardfortelecommunicationcompany/Dashboard
+
+Статус: проект завершен
