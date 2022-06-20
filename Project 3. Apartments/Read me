@@ -1,17 +1,66 @@
 English
-Sale of apartments in St. Petersburg - analysis of the real estate market
-Using data from the Yandex.Realty service, determine the market value of real estate and typical parameters of apartments
+
+Purpose, brief description: Based on the Yandex.Realty service data, the market value of various types of real estate objects was determined, typical parameters
+apartments, depending on the distance from the center. Data preprocessing has been carried out. Added new data.
+Histograms, boxplots, scatterplots were built
+
+Main conclusions:
+- the area of apartments is mainly from 20 to 100 meters, there are exceptions from 150 to 400 meters,
+- the main part of apartments costs from 2 to 10 million,
+-the main part of the apartments with one-room, or have 2 or 3 rooms,
+-ceilings on average from 2 to 4 meters.
+Apartments on average are sold in 2 years, it is good if the apartment was sold in 6 months - 1 year, a small number have to wait from 2 to 4 years.
+Outliers found in the dataframe:
+- the price is more than 40 million,
+- the number of rooms is more than 6,
+-ceiling height over 5 meters
+-if the apartment is being sold for more than 2 years, this can also be called an outlier value.
+We found out that the area and distance from the city center mainly affect the cost of an apartment. The most expensive real estate purchases near St. Petersburg are:
+Saint Petersburg itself
+Pushkin,
+Kudrovo. The cheapest way to buy real estate is in Vsevolozhsk, Gatchina and Vyborg.
+We found out that the center of St. Petersburg can be called the territory within 7 kilometers.
+Comparing the center of St. Petersburg and the total sample, we can say:
+apartments in the center are more expensive,
+-they have fewer rooms than housing in the general sample, but
+- the area will still be larger,
+-ceilings in the center are consistently higher (possibly due to the old fund),
+- the speed of selling an apartment does not depend much on its location.
+
 Tools: Matplotlib, Pandas, Python, data visualization, exploratory data analysis, data preprocessing
-Based on the Yandex.Realty service data, the market value was determined
-real estate objects of different types, typical parameters of apartments, depending on
-distance from the center. Data preprocessing has been carried out. Added new data.
-Histograms, boxplots, scatterplots are constructed
+
+Status: project completed
 
 Русский
-Продажа квартир в Санкт-Петербурге — анализ рынка недвижимости
-Используя данные сервиса Яндекс.Недвижимость, определить рыночную стоимость объектов недвижимости и типичные параметры квартир
-Инструменты: Matplotlib,Pandas,Python,визуализация данных,исследовательский анализ данных,предобработка данных
-На основе данных сервиса Яндекс.Недвижимость определена рыночная стоимость
-объектов недвижимости разного типа, типичные параметры квартир, в зависимости от
-удаленности от центра. Проведена предобработка данных. Добавлены новые данные.
+
+Цель, краткое описание: На основе данных сервиса Яндекс.Недвижимость определена рыночная стоимость объектов недвижимости разного типа, типичные параметры 
+квартир, в зависимости от удаленности от центра. Проведена предобработка данных. Добавлены новые данные.
 Построены гистограммы, боксплоты, диаграммы рассеивания
+
+Основные выводы:
+-площадь квартир в основном от 20 до 100 метров, есть исключения от 150 до 400 метров,
+-основная часть квартир стоит от 2 до 10 миллионов,
+-основная часть квартир с однокомнатные, либо имеют 2 или 3 комнаты,
+-потолки в среднем от 2 до 4 метров.
+Квартиры в среднем продаются за 2 года, хорошо если квартира продалась за 6 месяцев - 1 год, небольшому числу приходится ждать от 2 до 4 лет.
+В датафрейме обнаружены выбивающиеся значения:
+-цена больше 40 миллионов,
+-количество комнат больше 6,
+-высота потолка больше 5 метров(в сталинских домах могут быть квартиры до 5 метров, выше уже не похоже на жилое помещение),
+-если квартира продается дольше 2 лет, это тоже можно назвать выбивающимся значением.
+Выяснили, что в основном на стоимость квартиры влияет площадь и удаленность от центра города. Наиболее дорогими для приобретения недвижимости вблизи Санкт-Петербурга являются:
+сам Санкт-Петербург,
+Пушкин,
+Кудрово. Дешевле всего купить недвижимость во Всеволожске, Гатчине и Выборге.
+Выяснили, что центром Санкт-Петербурга можно назвать территорию в пределах 7 километров.
+Сравнивая центр Санкт-Петербурга и общую выборку можно сказать:
+-квартиры в центре стоят дороже,
+-в них меньше комнат, чем в жилье по общей выборке, но
+-площадь при этом все равно будет больше,
+-потолки в центре стабильно выше(возможно за счет старого фонда),
+-скорость продажи квартиры не сильно зависит от ее расположения.
+
+Инструменты: Matplotlib,Pandas,Python,визуализация данных,исследовательский анализ данных,предобработка данных
+
+Статус: проект завершен
+
