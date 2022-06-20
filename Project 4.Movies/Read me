@@ -1,11 +1,20 @@
-
 English
-The customer of this study is the Ministry of Culture of the Russian Federation.
-Tools:Pandas, Python, data visualization, exploratory data analysis, data preprocessing
-It is necessary to study the Russian film distribution market and identify current trends. Pay attention to films that have received state support. 
+Goal: It is necessary to study the Russian film distribution market and identify current trends. Pay attention to films that have received state support.
 Try to answer the question of how interesting such films are to the viewer.
-You will work with data published on the open data portal of the Ministry of Culture. The data set contains information about distribution certificates,
-box office and government support for films, as well as information from the KinoPoisk website.
+The customer of this study is the Ministry of Culture of the Russian Federation.
+The work was carried out with data published on the open data portal of the Ministry of Culture. The data set contains information about rental certificates,
+fees and state support for films, as well as information from the KinoPoisk website.
+The main conclusions of the study:
+To answer the question of how interesting such films are to the viewer. In response to the task at hand, we can say that:
+1) Data pre-processing revealed such problems as the violation of some types of data that were reduced to the desired ones. Outliers with % in column
+with movie rating. We filled in the gaps in the columns with the director and genre for further work with them, the remaining columns were left in their original form.
+2) After conducting an exploratory analysis of the data, we found that the least films were released in 2017, 2010 and 2019 were the years with the most
+films released. The most money invested in cinema was in 2018. We found out that the main part of films with the category 6+, the number
+there are significantly fewer films with an age limit of 18+ and 0+.
+3) Examining the market for films released with the help of state support, one can definitely say that such films do not attract Russians much.
+Films most often do not pay off (with rare exceptions), they have low average ratings. Assessing the amounts allocated for the production of such a movie, it is expected that
+that their ratings and fees can be an order of magnitude higher.
+Tools: Pandas, Python, data visualization, exploratory data analysis, data preprocessing
 
 Русский 
 Цель:Нужно изучить рынок российского кинопроката и выявить текущие тренды. Уделить внимание фильмам, которые получили государственную поддержку.
@@ -13,4 +22,14 @@ box office and government support for films, as well as information from the Kin
 Заказчик этого исследования — Министерство культуры Российской Федерации.
 Работа проводилась с данными, опубликованными на портале открытых данных Министерства культуры. Набор данных содержит информацию о прокатных удостоверениях,
 сборах и государственной поддержке фильмов, а также информацию с сайта КиноПоиск.
+Основные выводы исследования:
+Ответить на вопрос, насколько такие фильмы интересны зрителю. Отвечая на поставленную задачу можно сказать, что:
+1)Предобработка данных выявила такие проблемы как нарушение некоторых типов данных, которые были приведены к нужным. Выбивающиеся значения с % в столбце
+с рейтингом фильма. Заполнили пропуски в столбцах с режиссером и жанром для дальнейшей работы с ними, остальные столбцы оставили в их первоначальном виде.
+2)Проведя исследовательский анализ данных обнаружили, что меньше всего фильмов вышло в 2017 году, 2010 и 2019 стали годами с наибольшим количеством 
+фильмов, вышедших в прокат. Больше всего инвестировано денег в кино было в 2018 году. Выяснили, что основная часть фильмов с категорией 6+, количество 
+фильмов с возрастным ограничением 18+ и 0+ существенно меньше.
+3)Исследуя рынок фильмов, выпущенные с помощью государственной поддержки можно однозначно сказать, что такие фильмы не сильно привлекают россиян.
+Фильмы чаще всего не окупаются (за редким исключением), у них в среднем невысокие оценки. Оценивая суммы, выделенные на съемку такого кино, ожидается, 
+что рейтинги и сборы у них могут быть на порядок больше.
 Инструменты: Pandas,Python,визуализация данных,исследовательский анализ данных,предобработка данных
