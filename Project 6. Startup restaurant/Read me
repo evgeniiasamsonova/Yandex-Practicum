@@ -1,14 +1,62 @@
 English
-Tools: Pandas, Plotly, Python, Seaborn, data visualization
-I have investigated the question - will the cafe be successful and popular for a long time, in
+
+Purpose, brief description:
+Public catering market research based on open data, preparing a presentation for investors
+I have researched the question - will the cafe be successful and popular for a long time, in
 where guests are served by robotic waiters. Based on the results of the analysis, a
 presentation for investors with recommendations. In plotting I used
-seaborn and plotly libraries.
+seaborn and plotly libraries
+
+Main conclusions:
+- in the city, the predominant number of establishments belonging to the category of "cafes". Fewer cafeterias, eateries and culinary departments possible for
+modern Moscow, these establishments are already a relic of the past, hence their small number in relation to, for example, cafes and restaurants,
+the vast majority of all establishments in Moscow belong to any network, there are much fewer establishments that do not belong to any network and exist
+in a single copy, it is quite possible that these are the same outdated cafeterias and culinary departments,
+- the top three in terms of the number of network enterprises include: Chocolate Girl, KFC, McDonald's,
+the distribution of network facilities by type of public catering facility showed that the largest number of networks is represented by cafes, enterprises
+quick service and restaurants,
+most establishments have from 0 to 100 seats, network organizations are characterized by the presence of a small number of enterprises in which
+on average, a large number of seats.
+- it turned out that on average the number of seats is larger in canteens, about 130 in one institution, which is explained by the presence of a large crowd of people
+one-time (school, university, factory), a little less seats in restaurants and cafes, single or no seats in snack bars and departments
+cooking,
+after analyzing the location of establishments in the districts of Moscow, it is difficult to make an unambiguous conclusion, establishments are located for the most part in different districts,
+the list of districts is presented in the study,
+- streets where only one establishment is located - 579,
+- on the top 10 streets of the city, which have the most establishments, the average number of seats is approximately the same.
+
+Tools: Pandas, Plotly, Python, Seaborn, data visualization
+
+Status: project completed
 
 Русский
-Инструменты: Pandas,Plotly,Python,Seaborn,визуализация данных
+
+Цель, краткое описание:
 Исследование рынка общественного питания на основе открытых данных, подготовка презентации для инвесторов
 Мною был исследован вопрос - будет ли успешным и популярным на долгое время кафе, в
 котором гостей обслуживают роботы-официанты. По результатам анализа подготовлена
 презентация для инвесторов с рекомендациями. В построении графиков я использовали
 библиотеки seaborn и plotly
+
+Основные выводы:
+-в городе преобладающее количество заведений, относящихся к категории «кафе». Меньше всего кафетериев, закусочных и отделов кулинарии, возможно для
+современной Москвы эти заведения уже пережиток прошлого, отсюда и их небольшое количество по отношению, например, к кафе и ресторанам,
+подавляющее количество всех заведений Москвы относятся к какой-либо сети, намного меньше заведений, которые не относятся ни к одной сети и существуют 
+в единственном экземпляре, вполне возможно, что это те самые устаревшие кафетерии и отделы кулинарии,
+-в тройку лидеров по количеству сетевых предприятий входят: «Шоколадница», «KFC», «Макдоналдс»,
+распределение сетевых объектов по виду объекта общественного питания показало, что наибольшее количество сетей представлено кафе, предприятиями 
+быстрого обслуживания и ресторанами,
+большинство заведений имеет от 0 до 100 посадочных мест, для сетевых организаций характерно наличие небольшого количества предприятий, в которых 
+в среднем большое количество посадочных мест.
+-выяснилось, что в среднем количество посадочных мест больше в столовых, около 130 в одном заведении, что объясняется наличием большого скопления людей 
+единоразово (школа, университет, завод), чуть меньше посадочных мест в ресторанах и кафе, единичны или отсутствуют посадочные места в закусочных и отделах
+кулинарии,
+проанализировав расположение заведений по районам Москвы сделать однозначный вывод сложно, заведения располагаются в большинстве своем в различных районах,
+список районов представлен в исседовании,
+-улиц, на которых расположено всего одно заведение - 579,
+-на топ-10 улицах города, которые имеют больше всего заведений, среднее количество посадочных мест примерно одинаково.
+
+Инструменты: Pandas,Plotly,Python,Seaborn,визуализация данных
+
+Статус: проект завершен
+
