@@ -1,23 +1,58 @@
 English
-Yandex.Music
-Tools: Python,Pandas
+
+Purpose, brief description:
 Comparison of Moscow and St. Petersburg is surrounded by myths. For example:
 Moscow is a metropolis subject to the rigid rhythm of the working week;
 Petersburg is a cultural capital, with its own tastes.
-Using Yandex.Music data, you will compare the behavior of users in the two capitals.
+Using data from Yandex.Music, we compared the behavior of users in the two capitals.
 The purpose of the study is to test three hypotheses:
 User activity depends on the day of the week. Moreover, in Moscow and St. Petersburg this manifests itself in different ways.
 On Monday morning, certain genres dominate in Moscow, while others dominate in St. Petersburg. Similarly, Friday evenings are dominated by different genres, depending on the city.
 Moscow and St. Petersburg prefer different genres of music. In Moscow, they listen to pop music more often, in St. Petersburg - Russian rap.
+Test three hypotheses:
+User activity depends on the day of the week. Moreover, in Moscow and St. Petersburg this manifests itself in different ways.
+On Monday morning, certain genres dominate in Moscow, while others dominate in St. Petersburg. Similarly, Friday evenings are dominated by different genres, depending on the city.
+Moscow and St. Petersburg prefer different genres of music. In Moscow, they listen to pop music more often, in St. Petersburg - Russian rap.
+
+Main conclusions:
+1) The day of the week has a different effect on the activity of users in Moscow and St. Petersburg.
+The first hypothesis was fully confirmed.
+2) Musical preferences do not change much during the week - be it Moscow or St. Petersburg. Small differences are noticeable at the beginning of the week, according to
+Mondays:
+- in Moscow they listen to music of the “world” genre,
+- in St. Petersburg - jazz and classical music.
+Thus, the second hypothesis was only partly confirmed. This result could have been different were it not for gaps in the data.
+3) The tastes of users of Moscow and St. Petersburg have more in common than differences. Contrary to expectations, genre preferences in St. Petersburg resemble those in Moscow.
+The third hypothesis was not confirmed. If there are differences in preferences, they are invisible to the bulk of users.
+
+Tools: Python, Pandas
 
 Русский
-Яндекс.Музыка
-Инструменты: Python,Pandas
+
+Цель, краткое описание :
 Сравнение Москвы и Петербурга окружено мифами. Например:
 Москва — мегаполис, подчинённый жёсткому ритму рабочей недели;
 Петербург — культурная столица, со своими вкусами.
-На данных Яндекс.Музыки вы сравните поведение пользователей двух столиц.
+На данных Яндекс.Музыки сравнили поведение пользователей двух столиц.
 Цель исследования — проверьте три гипотезы:
 Активность пользователей зависит от дня недели. Причём в Москве и Петербурге это проявляется по-разному.
 В понедельник утром в Москве преобладают одни жанры, а в Петербурге — другие. Так же и вечером пятницы преобладают разные жанры — в зависимости от города.
 Москва и Петербург предпочитают разные жанры музыки. В Москве чаще слушают поп-музыку, в Петербурге — русский рэп.
+Проверьте три гипотезы:
+Активность пользователей зависит от дня недели. Причём в Москве и Петербурге это проявляется по-разному.
+В понедельник утром в Москве преобладают одни жанры, а в Петербурге — другие. Так же и вечером пятницы преобладают разные жанры — в зависимости от города.
+Москва и Петербург предпочитают разные жанры музыки. В Москве чаще слушают поп-музыку, в Петербурге — русский рэп.
+
+Основные выводы: 
+1)День недели по-разному влияет на активность пользователей в Москве и Петербурге.
+Первая гипотеза полностью подтвердилась.
+2)Музыкальные предпочтения не сильно меняются в течение недели — будь то Москва или Петербург. Небольшие различия заметны в начале недели, по
+понедельникам:
+-в Москве слушают музыку жанра “world”,
+-в Петербурге — джаз и классику.
+Таким образом, вторая гипотеза подтвердилась лишь отчасти. Этот результат мог оказаться иным, если бы не пропуски в данных.
+3)Во вкусах пользователей Москвы и Петербурга больше общего чем различий. Вопреки ожиданиям, предпочтения жанров в Петербурге напоминают московские.
+Третья гипотеза не подтвердилась. Если различия в предпочтениях и существуют, на основной массе пользователей они незаметны.
+
+Инструменты: Python,Pandas
+
