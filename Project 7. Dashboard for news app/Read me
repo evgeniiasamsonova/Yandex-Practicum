@@ -1,19 +1,41 @@
 English
-Tools:PostgreSQL,Python,SQLAlchemy,Tableau,dash,building dashboards,product metrics
-I worked on this project on a remote machine in the Yandex.Cloud service. Me
-PostgreSQL was installed, the database was deployed. Then I wrote a pipeline script,
-which allowed to collect data for a certain time period, and configured it
-offline work via crontab. To visualize the collected data, I wrote a script
-dashboard with several filters and also launched it on a remote machine. By
-a presentation was prepared with the resulting graphs.
 
-Русский
-Инструменты: PostgreSQL,Python,SQLAlchemy,Tableau,dash,построение дашбордов,продуктовые метрики
-Работу над этим проектом я провел на удаленной машине в сервисе Yandex.Cloud. Мной
-был установлен PostgreSQL, развернута база данных. Затем я написал скрипт пайплайна,
-который позволил собирать данные за определенный временной период, и настроил его
-автономную работу через crontab. Для визуализации собранных данных я написал скрипт
-дашборда с несколькими фильтрами и также запустил его на удаленной машине. По
-результатам была подготовлена презентация с полученными графиками.
+Purpose, brief description:
+Using Yandex.Zen data to build a dashboard with metrics for user interaction with article cards. I worked on this project on
+remote machine in the Yandex.Cloud service. I installed PostgreSQL and deployed a database. Then I wrote a pipeline script,
+which allowed to collect data for a certain time period, and configured it to work offline through crontab. To visualize collected data
+I wrote a dashboard script with several filters and also ran it on a remote machine. Based on the results, a presentation was prepared with the results
+charts.
+
+Main conclusions:
+- it is possible to single out the leading topics of cards in relative terms - Science, Society, Collections, Interesting facts
+- most of the sources relate to various topics, but the most popular topics are Family Relations, Russia and Useful Tips
+- we can say that the closer in idea and meaning is the theme of the source item card, the more views. For example, the most viewed
+cards with the theme "Stories", the source is "Travel". While the card with the theme "Women" has very few views on the source "Technology"
+
+Tools: PostgreSQL, Python, SQLAlchemy, Tableau, dash, dashboard building, product metrics
 
 Link: https://public.tableau.com/app/profile/eugenesam/viz/DashboardforYandex_Dzen_16515794710680/Dashboard
+
+Status: project completed
+
+Русский
+
+Цель, краткое опсиание:
+Используя данные Яндекс.Дзена построить дашборд с метриками взаимодействия пользователей с карточками статейРаботу над этим проектом я провел на 
+удаленной машине в сервисе Yandex.Cloud. Мной был установлен PostgreSQL, развернута база данных. Затем я написал скрипт пайплайна,
+который позволил собирать данные за определенный временной период, и настроил его автономную работу через crontab. Для визуализации собранных данных
+я написал скрипт дашборда с несколькими фильтрами и также запустил его на удаленной машине. Порезультатам была подготовлена презентация с полученными
+графиками.
+
+Основные выводы:
+- можно выделить лидирующие темы карточек в относительных показателях – Наука, Общество, Подборки, Интересные факты
+- основная часть источников относится к различным темам, однако самые популярные темы –Семейные отношения, Россия и Полезные советы
+- можно сказать, что чем ближе по идее и смыслу тема карточки итема источника, тем больше просмотров. Так, например, наибольшее количество просмотров у 
+карточки с темой «Рассказы», источник – «Путешествия». В то время как у карточки с  темой «Женщины», источником «Технологии» просмотров крайне мало
+
+Инструменты: PostgreSQL,Python,SQLAlchemy,Tableau,dash,построение дашбордов,продуктовые метрики
+
+Ссылка: https://public.tableau.com/app/profile/eugenesam/viz/DashboardforYandex_Dzen_16515794710680/Dashboard
+
+Статус: проект завершен 
