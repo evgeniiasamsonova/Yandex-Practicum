@@ -14,10 +14,14 @@ To do this, the following steps were taken:
 - highlighted the lemmas in the column for the purpose of obtaining a loan,
 - categorized data.
 In response to the main research questions, we can say that:
-- You can trace a small relationship between the presence of children and the repayment of the loan on time. Families with 1-2 children more often than others do not repay loans on time.
-- there is a connection between marital status and repayment of the loan on time, the most "unreliable" clients are clients who are in a civil marriage and single people.
-It is more difficult to track a clear relationship between the level of income and the loan repaid on time. The most responsible clients are clients with a very high income (from 500,000 or more). Clients with high incomes more often than others do not repay loans on time.
-- Referring to information about the purpose of issuing a loan, it can be said that clients who have taken out a loan for education and a car are more likely to return it on time than those who have taken out a loan for a wedding or for various real estate transactions.
+- You can trace a small relationship between the presence of children and the repayment of the loan on time. Families with 1-2 children more often than 
+others do not repay loans on time.
+- there is a connection between marital status and repayment of the loan on time, the most "unreliable" clients are clients who are in a civil marriage
+and single people.
+It is more difficult to track a clear relationship between the level of income and the loan repaid on time. The most responsible clients are clients with 
+a very high income (from 500,000 or more). Clients with high incomes more often than others do not repay loans on time.
+- Referring to information about the purpose of issuing a loan, it can be said that clients who have taken out a loan for education and a car are more
+likely to return it on time than those who have taken out a loan for a wedding or for various real estate transactions.
 
 Tools: Pandas, Python, data preprocessing
 
@@ -42,8 +46,10 @@ Status: project completed
 Отвечая на основные вопросы исследования можно сказать, что:
 -можно проследить небольшую зависимость между наличием детей и возвратом кредита в срок. Семьи с 1-2 детьми чаще остальных не возвращают кредиты в срок.
 -имеется связь между семейным положением и возвратом кредита в срок, самые "ненадежные" клиенты - клиенты состоящие в гражданском браке и одинокие люди.
--отследить четкую взаимосвязь между уровнем дохода и вернувшимся кредитом в срок сложнее. Самые ответственные клиенты - клиенты с очень высоким достатком(от 500 000 и более). Клиенты с высоким достатком чаще остальных не возвращают кредиты в срок.
--обращаясь к информации о цели выдачи кредита можно сказать, что клиенты, взявшие кредит на получение образования и автомобиль, с большей вероятносью вернут его в срок, чем те, кто взял кредит на свадьбу или на различные операции с недвижимостью.
+-отследить четкую взаимосвязь между уровнем дохода и вернувшимся кредитом в срок сложнее. Самые ответственные клиенты - клиенты с очень высоким достатком
+(от 500 000 и более). Клиенты с высоким достатком чаще остальных не возвращают кредиты в срок.
+-обращаясь к информации о цели выдачи кредита можно сказать, что клиенты, взявшие кредит на получение образования и автомобиль, с большей вероятносью 
+вернут его в срок, чем те, кто взял кредит на свадьбу или на различные операции с недвижимостью.
 
 Инструменты: Pandas,Python,предобработка данных
 
